@@ -1,15 +1,21 @@
 # Set your theme here
 theme: hugo-tufte
-# Remove this if your site folder is not inside the theme folder
-# themesDir: "../.."
-# The language of your website (see https://www.andiamo.co.uk/resources/iso-language-codes/ for reference)
-languageCode: en-US
+# languageCode: en-US
+languageCode: ko
 # If you write Chinese, Japanese or Korean, this helps with word counting
 hasCJKLanguage: true
 # The url of your website
 baseurl: "https://junghanacs.github.io"
 # The title of your website (shown on all the pages)
-title: "Hugo-Tufte Theme Example Site"
+title: "Junghanacs's Home"
+defaultContentLanguage: ko
+languageName: Korean
+languageCodeCountry: kr
+timeZone: Asia/Seoul
+# googleAnalytics: G-GYRB327HE6
+
+# preserveTaxonomyNames: true
+
 canonifyurls: true
 # Number of posts per page on the home page
 paginate: 5
@@ -25,7 +31,7 @@ markup:
 
 params:
   # Subtitle of the website
-  subtitle: "Fancy subtitle."
+  subtitle: "Meditations on technology, learning, life, and text-editor"
   favicon: "./favicon.ico"
   touchicon: "./touch-icon.png"
   # Dark code highlighting
@@ -101,7 +107,7 @@ menu:
     - name: Source Code
       weight: -70
       identifier: github
-      url: "https://github.com/loikein/hugo-tufte"
+      url: "https://github.com/junghanacs/junghanacs.github.io"
 # -----------------------------------------------------------------------
 # FOOTER MENU
 # If you need to add custom links to you footer: put them here.
